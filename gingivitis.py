@@ -20,7 +20,11 @@ n_result = 1
 st.title('Dogs/Cats Gingivitis Estimator')
 st.write('犬猫の歯肉炎を診断します.')
 st.write('奥歯を撮影した画像が必要です.')
-st.write('')
+st.divider()
+with st.expander(':red[注意事項]', expanded=True):
+    st.write('本プログラムは技術デモであり、診断結果を保証するものではありません.')
+    st.write('歯肉炎の疑いがある場合は、アミカペットクリニックにご相談ください.')
+st.divider()
 
 @st.cache_resource
 def load_model():
