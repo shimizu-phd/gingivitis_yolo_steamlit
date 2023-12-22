@@ -29,7 +29,7 @@ def load_model():
 
 model = load_model()
 
-select = st.selectbox('解析対象を選択してください.', ('画像', 'カメラ'))
+select = st.radio('解析対象を選択してください.', ('画像', 'カメラ'))
 
 if select == '画像':
     uploaded_file = st.file_uploader("ファイルアップロード", type=['png', 'jpg', 'jpeg', 'webp'], accept_multiple_files=True)
