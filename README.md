@@ -16,8 +16,7 @@ The **Dogs/Cats Gingivitis Estimator** is a tool for diagnosing gingivitis in do
     - The tool classifies the gingivitis severity into four categories:
         - **GI=0**: Normal gums (green).
         - **GI=1**: Mild gingivitis (orange).
-        - **GI=2**: Moderate gingivitis (red).
-        - **GI=3**: Severe gingivitis (red).
+        - **GI=2**: Moderate-severe gingivitis (red).
 
 ## Requirements
 
